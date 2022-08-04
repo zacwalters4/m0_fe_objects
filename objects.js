@@ -83,25 +83,25 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 // that relate to each individual Instagram post:
 
 
-// posts = [
-//   {
-//     imageSrc: "./images/beach.png",
-//     caption: "At the beach with my besties",
-//     timestamp: "4:37 PM August 13, 2019",
-//     number_likes: 0,
-//     comments: []
-//   },
-//   {
-//     imageSrc: "./images/holiday-party.png",
-//     caption: "What a great holiday party omg",
-//     timestamp: "11:37 PM December 31, 2019",
-//     number_likes: 13,
-//     comments: []
-//   }
-// ];
-//
-// console.log(posts);
-// console.log(posts[0]);
+posts = [
+  {
+    imageSrc: "./images/beach.png",
+    caption: "At the beach with my besties",
+    timestamp: "4:37 PM August 13, 2019",
+    number_likes: 0,
+    comments: []
+  },
+  {
+    imageSrc: "./images/holiday-party.png",
+    caption: "What a great holiday party omg",
+    timestamp: "11:37 PM December 31, 2019",
+    number_likes: 13,
+    comments: []
+  }
+];
+
+console.log(posts);
+console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a
@@ -113,3 +113,25 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+email2 = [{
+  from: "abc@g.com",
+  to: "123@h.com",
+  subject: "Hello",
+  body: "Hi, how are you doing?",
+  attachments: false
+},{
+from: "abc@g.com",
+to: "123@h.com",
+subject: "Cat",
+body: "look at this cat lol",
+attachments: true
+},{
+  from: "123@h.com",
+  to: "abc@g.com",
+  subject: "re:Cat",
+  body: "I am more of a dog person",
+  attachments: false
+}
+]
+console.log(email2);
