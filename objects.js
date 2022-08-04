@@ -44,18 +44,26 @@ for (var i in foods){
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+email = {
+  from: "abc@g.com",
+  to: "123@h.com",
+  subject: "Hello",
+  body: "Hi, how are you doing?",
+  attachments: false
+}
 // Write code that logs your email object to the terminal.
 
-
+console.log(email);
 // Write code that logs all of the 'keys' of the email object
 // you created above:
 // YOUR CODE HERE
-
 // Write code that logs all of the 'values' of the email object
 // you created above:
 // YOUR CODE HERE
 
+for(var c in email){
+  console.log(`${c}:`, email[c]);
+}
 
 //#-------------------
 // Part 3: Many Emails - CHALLENGE!
